@@ -1,0 +1,253 @@
+ /* pagina inicial */
+ .fundo {
+     background-image: url(cafe.jpg);
+     background-size: cover
+ }
+
+ .pag {
+     background-color: rgba(62, 179, 237, 0.649);
+ }
+
+ /* Logo */
+ .imagem {
+     margin-top: -30px;
+     width: 1000px;
+     height: 200px;
+ }
+
+ /* Botão cadastrar */
+ .ajustabotao {
+     padding: 10px;
+ }
+
+ #font {
+     font-family: Italianno;
+     font-size: 25px;
+
+ }
+
+ /* cor do Botão */
+ .btn-outline-success {
+     background: rgb(8, 197, 8);
+     width: 200px;
+     height: 50px;
+     left: 1142px;
+     top: 55px;
+ }
+
+ /* Área de acesso */
+ #telalogin {
+     width: 350px;
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     box-shadow: 1px 5px 30px rgb(0, 0, 0);
+ }
+
+ .card {
+     margin-top: 5px;
+
+ }
+
+ .espaco {
+     padding: 10px;
+
+ }
+
+ #bgbutton {
+     background-color: rgb(78, 202, 255);
+ }
+
+ /* Termo de Privacidade */
+ .container {
+     position: absolute;
+     width: 700px;
+     height: 44px;
+     left: 27%;
+     top: 600px;
+     font-family: 'Inter';
+     font-style: italic;
+     font-weight: 100;
+     font-size: 20px;
+     line-height: 24px;
+     text-align: center;
+     color: #000000;
+ }
+
+ /* Tela de cadastro */
+ .imagm {
+     margin-top: 40px;
+     width: 1000px;
+     height: 200px;
+
+ }
+
+ /* Tela Principal */
+ #card01 {
+     margin-top: 5%;
+     padding: 15px;
+ }
+
+ .Redes {
+     margin-left: 770px;
+ }
+
+ /* ajuste de Margem */
+ .AM {
+     margin-left: 15px;
+ }
+
+ /* Ajuste de imagem */
+ .AI {
+     padding: 100px;
+ }
+
+ /* Config NavBar */
+ .pesquisa {
+     color: black;
+     background-color: rgb(26, 179, 210);
+ }
+
+ /* Background Titulo */
+ #Backtitle {
+     position: fixed;
+ }
+
+
+ /* Background Navbar */
+ #backNavbar {
+     background-color: rgba(77, 178, 249, 0.617);
+     font-family: 'El Messiri';
+
+ }
+
+ /* Guia de Promoções*/
+ @keyframes pulse {
+     0% {
+
+         transform: scale(0.1);
+         opacity: 1;
+
+     }
+
+     100% {
+         transform: scale(1.0);
+     }
+
+ }
+
+ #imagem {
+     box-shadow: 1px 5px 3px;
+     animation-name: pulse;
+     animation-duration: 5s;
+     left: 30%;
+     margin: 10px;
+     animation-iteration-count: infinite;
+
+ }
+
+
+
+
+ /* Cartões de Imagens da Tela Inicial*/
+ .cards {
+     display: flex;
+     gap: 70px;
+     padding: 70px;
+     margin-top: 300px;
+ }
+
+ .Button {
+     background-color: rgba(255, 255, 255, 0.758);
+     font-size: 20px;
+     border: 0%;
+     text-emphasis-color: white;
+ }
+
+ .BORDA {
+     margin-left: 180px;
+
+ }
+
+ #separa {
+     display: flex;
+     margin: 10px;
+     text-align: center;
+     left: 10px;
+
+ }
+
+
+ /* Botões dos Cards */
+ .botao {
+     margin-left: 80px;
+ }
+
+ /* Formas de Pagamemto */
+ .pagamento {
+     margin-left: 260px;
+     margin-top: 800px;
+ }
+
+ .footer {
+     background: url(//www.amoraospedacos.com.br/wp-content/themes/amoraospedacos/assets/css/../images/footer-bg.png) no-repeat top;
+     background-size: cover;
+     margin-top: 110px;
+     width: 100%;
+     min-height: 200px;
+     padding-top: 220px;
+     padding-bottom: 50px;
+     color: #fff;
+     font-family: Montserrat, sans-serif;
+ }
+
+ /* Guia de Pedidos */
+ .REC {
+     margin-top: 100px;
+     left: 6%;
+     height: 400px;
+     width: 400px;
+ }
+
+ .RAC {
+     margin-top: 100px;
+     left: 12%;
+     height: 400px;
+     width: 400px;
+ }
+
+ .RIC {
+     margin-top: 100px;
+     left: 18%;
+     height: 400px;
+     width: 400px;
+ }
+
+ .modal {
+     width: 300px;
+ }
+
+ .modal.content {
+     width: 200px;
+ }
+
+ .list-group-item:hover {
+     background-color: rgba(78, 196, 226, 0.882) !important;
+
+ }
+
+ .MAG {
+     margin: 10px;
+     box-shadow: #555555 1px 5px 3px;
+ }
+
+ #alinhar {
+     margin-left: 34%;
+ }
+
+ #contatos {
+     display: inline;
+     color: rgb(0, 0, 0);
+     font: 13px "Open Sans", sans-serif;
+ }
